@@ -3,10 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_App_using_.NET_MAUI.MVVM.Views.DetailsPage"
              Title="DetailsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid RowDefinitions="auto,auto,*">
+        <Image x:Name="ImageNews" Aspect="AspectFit"/>
+        <Label Grid.Row="1" x:Name="Titlelbl" FontSize="Title"/>
+        <Label Grid.Row="2" x:Name="description" FontSize="Body"/>
+    </Grid>
 </ContentPage>

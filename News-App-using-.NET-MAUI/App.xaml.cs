@@ -8,7 +8,7 @@ namespace News_App_using_.NET_MAUI
         {
             InitializeComponent();
 
-            MainPage = new HomePage();
+            MainPage = new NavigationPage(new HomePage());
         }
     }
 }

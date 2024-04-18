@@ -14,9 +14,9 @@ namespace News_App_using_.NET_MAUI.MVVM.ViewModels
 
         public List<Article> ArticleList { get; set; } = new List<Article>();
 
-        public async Task<List<Article>> LoadNews()
+        public async Task<List<Article>> LoadNews(string newsHeading)
         {
-            var RootNews = await APIData.GetNews();
+            var RootNews = await APIData.GetNews(newsHeading);
             foreach (var item in RootNews.Articles)
             {
                 ArticleList.Add(item);

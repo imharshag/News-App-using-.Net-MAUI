@@ -13,6 +13,8 @@ namespace News_App_using_.NET_MAUI
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Nexa-Heavy.ttf", "NexaHeavy");
+                    fonts.AddFont("Nexa-ExtraLight.ttf", "NexaLight");
                 });
 
 #if DEBUG

@@ -5,11 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:News_App_using_.NET_MAUI"
     Shell.FlyoutBehavior="Disabled"
-    Title="News_App_using_.NET_MAUI">
+    Title="News_App_using_.NET_MAUI"
+    Shell.BackgroundColor="#101216">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <ShellContent
+        Title="DetailsPage"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="DetailsPage" />
 
 </Shell>

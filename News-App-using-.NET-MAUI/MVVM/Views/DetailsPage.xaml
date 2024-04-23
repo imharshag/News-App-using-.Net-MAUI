@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_App_using_.NET_MAUI.MVVM.Views.DetailsPage"
-             Title="DetailsPage">
-    <Grid RowDefinitions="auto,auto,*">
-        <Image x:Name="ImageNews" Aspect="AspectFit"/>
-        <Label Grid.Row="1" x:Name="Titlelbl" FontSize="Title"/>
-        <Label Grid.Row="2" x:Name="description" FontSize="Body"/>
+             BackgroundColor="#141010">
+
+
+    <Grid Margin="25,15,25,0" RowDefinitions="auto,auto,auto,*">
+        <Image Margin="0,10,0,0" x:Name="ImageNews" Grid.Row="1" Aspect="AspectFill"/>
+        <Label Margin="0,25,0,15" TextColor="#eeeeee" FontFamily="NexaHeavy" Grid.Row="2" x:Name="Titlelbl" FontSize="Title"/>
+        <Label TextColor="#eeeeee" FontFamily="NexaLight" Grid.Row="3" x:Name="description" FontSize="Body"/>
     </Grid>
 </ContentPage>

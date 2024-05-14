@@ -13,7 +13,7 @@ namespace News_App_using_.NET_MAUI.MVVM.Services
         public static async Task<Root> GetNews(string newsTopic)
         { 
             var httpClient = new HttpClient();
-            var jsonData = await httpClient.GetStringAsync("https://gnews.io/api/v4/search?q=example&apikey=7a3ff9f29c4b39ac2221c6b483c348cd&lang=en&country=in&topic=" + newsTopic.ToLower());
+            var jsonData = await httpClient.GetStringAsync("" + newsTopic.ToLower());  // Add your GNews API here //
             var result = JsonConvert.DeserializeObject<Root>(jsonData);
             return result;
         }  

@@ -22,13 +22,14 @@ For detailed documentation, please [Click Here!](https://drive.google.com/file/d
 
 ### 📧 Contact
 
-For any queries or support, please reach out to me at [support@newsapp.com](mailto:harshag3106@gmail.com).
+For any queries or support, please reach out to me at [My Mail](mailto:harshag3106@gmail.com).
 
 ### 🤝 Contributions
+
 🔧📝 Contributions are welcome! You can contribute to this project in several ways:
 
-Open an Issue: If you find a bug or have a suggestion, open an issue to discuss it.
+***Open an Issue***: If you find a bug or have a suggestion, open an issue to discuss it.
 
-Submit a Pull Request: Fix a bug or add a new feature and submit a pull request with your changes.
+***Submit a Pull Request***: Fix a bug or add a new feature and submit a pull request with your changes.
 
-Provide Feedback: Share your thoughts on the usability and features of the website.
+***Provide Feedback***: Share your thoughts on the usability and features of the website.
